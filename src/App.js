@@ -39,7 +39,7 @@ export default function App() {
 			],
 		},
 	];
-	];
+
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
