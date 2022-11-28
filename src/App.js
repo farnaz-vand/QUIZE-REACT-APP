@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Button from './button';
 export default function App() {
 	const questions = [
 		{
@@ -38,6 +38,7 @@ export default function App() {
 				{ answerText: '7', isCorrect: true },
 			],
 		},
+		
 	];
 
 
@@ -62,7 +63,12 @@ export default function App() {
 			{showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}
-				</div>
+
+					<Button/>
+
+									</div>
+										
+				
 			) : (
 				<>
 					<div className='question-section'>
@@ -78,6 +84,8 @@ export default function App() {
 					</div>
 				</>
 			)}
+			
 		</div>
+		
 	);
 }
