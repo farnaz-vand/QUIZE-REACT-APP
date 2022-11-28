@@ -20,7 +20,6 @@ export default function App() {
 				{ answerText: 'Tony Stark', isCorrect: false },
 			],
 		},
-		},
 		{
 			questionText: 'The iPhone was created by which company?',
 			answerOptions: [
@@ -39,6 +38,7 @@ export default function App() {
 				{ answerText: '7', isCorrect: true },
 			],
 		},
+	];
 	];
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
