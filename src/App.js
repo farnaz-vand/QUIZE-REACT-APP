@@ -11,6 +11,7 @@ export default function App() {
 				{ answerText: 'Dublin', isCorrect: false },
 			],
 		},
+		*
 		{
 			questionText: 'Who is CEO of Tesla?',
 			answerOptions: [
