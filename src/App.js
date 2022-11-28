@@ -11,7 +11,6 @@ export default function App() {
 				{ answerText: 'Dublin', isCorrect: false },
 			],
 		},
-		*
 		{
 			questionText: 'Who is CEO of Tesla?',
 			answerOptions: [
@@ -20,6 +19,7 @@ export default function App() {
 				{ answerText: 'Bill Gates', isCorrect: false },
 				{ answerText: 'Tony Stark', isCorrect: false },
 			],
+		},
 		},
 		{
 			questionText: 'The iPhone was created by which company?',
